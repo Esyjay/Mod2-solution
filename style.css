@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.wears, .shoes, .accesories{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+
+}
+h3{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.h3w{
+    background-color: cadetblue;
+}
+.h3s{
+    background-color: darkviolet;
+}
+.h3a{
+    background-color: brown;
+}
+p{
+    margin-top: 15px;
+}
+
+@media (min-width:992px){
+    .col-lg-4{
+        float: left;
+        width: 33%;
+        margin-left: 0.25%;
+        height: 200px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        float: left;
+        width: 45%;
+        height: 200px;
+        margin-left: 3.33%;
+    }
+    .accesories{
+        width: 93.34%;
+        height: fit-content;
+    }
+}
